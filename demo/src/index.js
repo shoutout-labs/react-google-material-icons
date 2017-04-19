@@ -1,13 +1,15 @@
 import React from 'react'
 import {render} from 'react-dom'
 
-import Component from '../../src'
+import MaterialIcon from '../../src'
 
 let Demo = React.createClass({
   render() {
     return <div>
       <h1>react-google-material-icons Demo</h1>
-      <Component/>
+      <MaterialIcon icon="account_box"/>
+      <MaterialIcon icon="account_box" size={36}/>
+      <MaterialIcon icon="account_box" size={64}/>
     </div>
   }
 })

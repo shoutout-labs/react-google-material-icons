@@ -1,9 +1,8 @@
 import React from 'react'
-
+import './styles.css';
 export default React.createClass({
   render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
+    return  <i className="material-icons"
+                      style={{fontSize: this.props.size ? this.props.size : 24}} {...props}>{this.props.icon}</i>;
   }
 })

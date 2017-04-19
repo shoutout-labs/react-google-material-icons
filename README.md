@@ -4,7 +4,21 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe react-google-material-icons here.
+This library provide a ReactJs component for `Google Material Icons`.
+
+**Install**
+
+`npm install react-google-material-icons`
+
+**Use**
+
+`import MaterialIcon from 'react-google-material-icons'`
+
+`<MaterialIcon icon="account_box" size={36}/>`
+
+icon: Name of the Google Material icon
+
+Note that size is an optional parameter which is use to set the font size of the icon. Default size is 24px.
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
