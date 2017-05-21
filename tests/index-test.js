@@ -14,10 +14,13 @@ describe('Component', () => {
   afterEach(() => {
     unmountComponentAtNode(node)
   })
+   it('renders title', () => {
+    expect(render(<h1>react-google-material-icons Demo</h1>))
+      .toContain('<h1>react-google-material-icons Demo</h1>')
+  })
 
-  it('displays a welcome message', () => {
-    render(<Component/>, node, () => {
-      expect(node.innerHTML).toContain('Welcome to React components')
-    })
+   it('renders a icon with type="i"', () => {
+    expect(render(<MaterialIcon icon="account_box"/>))
+      .toContain('<i class="material-icons" style="font-size: 24px;">account_box</i>')
   })
 })

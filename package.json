@@ -1,6 +1,6 @@
 {
   "name": "react-google-material-icons",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "react-google-material-icons React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -11,7 +11,7 @@
     "umd"
   ],
   "scripts": {
-    "build": "nwb build-react-component",
+    "build": "nwb build-react-component --copy-files",
     "clean": "nwb clean-module && npm clean-demo",
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
